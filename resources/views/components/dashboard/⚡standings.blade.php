@@ -61,7 +61,7 @@ new class extends Component
 };
 ?>
 
-<div class="p-6 space-y-6" wire:poll.30s>
+<div class="p-6 space-y-6" wire:poll.10s>
         <div>
             <h1 class="text-2xl font-semibold tracking-tight">Standings</h1>
             <p class="text-sm text-zinc-400 mt-1">{{ $this->event->name }} — lowest points wins, ties share a place. Official scores only; NC and DNS riders do not compete.</p>
