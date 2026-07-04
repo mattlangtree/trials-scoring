@@ -74,8 +74,8 @@ new class extends Component
         <p class="text-sm text-zinc-400 mt-1">Search by name or number, click a rider for their scorecard. Only official scores count.</p>
     </div>
 
-    <div class="grid xl:grid-cols-5 gap-6">
-        <div class="xl:col-span-2 space-y-4">
+    <div class="grid md:grid-cols-5 gap-6">
+        <div class="md:col-span-2 space-y-4">
             <input type="search" wire:model.live.debounce.300ms="search" placeholder="Search riders…"
                    class="w-full rounded-lg border border-zinc-800 bg-zinc-900/60 px-3.5 py-2.5 text-sm placeholder-zinc-500 focus:border-amber-500 focus:outline-none">
 
@@ -97,7 +97,7 @@ new class extends Component
             </div>
         </div>
 
-        <div class="xl:col-span-3">
+        <div class="md:col-span-3">
             @if ($this->selected)
                 @php $rider = $this->selected; @endphp
                 <div class="rounded-xl border border-zinc-800 bg-zinc-900/50">

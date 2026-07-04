@@ -1,0 +1,8583 @@
+[
+  {
+    "className": "Trial 1",
+    "classCode": "T1",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Tim",
+        "lastName": "Coleman",
+        "total": 24,
+        "status": "placed",
+        "bike": "SHERCO 300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 10
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  5,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 14
+          }
+        ],
+        "penalties": {
+          "zeros": 47,
+          "ones": 8,
+          "twos": 3,
+          "threes": 0,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Tom",
+        "lastName": "Scott",
+        "total": 64,
+        "status": "placed",
+        "bike": "GAS GAS 300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 20,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  5,
+                  2,
+                  3,
+                  0,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  3,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 12,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  5,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 43
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 21
+          }
+        ],
+        "penalties": {
+          "zeros": 41,
+          "ones": 2,
+          "twos": 5,
+          "threes": 4,
+          "fives": 8
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Trevor",
+        "lastName": "Campbell",
+        "total": null,
+        "status": "dns",
+        "bike": "GAS GAS TXT 300",
+        "penalties": {
+          "zeros": 0,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      }
+    ]
+  },
+  {
+    "className": "Trial 2",
+    "classCode": "T2",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Josh",
+        "lastName": "Coleman",
+        "total": 82,
+        "status": "placed",
+        "bike": "VERTIGO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 16,
+                "sections": [
+                  3,
+                  0,
+                  1,
+                  3,
+                  2,
+                  5,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 20,
+                "sections": [
+                  3,
+                  0,
+                  2,
+                  2,
+                  1,
+                  5,
+                  1,
+                  0,
+                  5,
+                  1
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  2,
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 45
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 14,
+                "sections": [
+                  1,
+                  3,
+                  5,
+                  1,
+                  1,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 12,
+                "sections": [
+                  1,
+                  3,
+                  5,
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  1,
+                  3,
+                  1,
+                  5,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 37
+          }
+        ],
+        "penalties": {
+          "zeros": 23,
+          "ones": 18,
+          "twos": 5,
+          "threes": 8,
+          "fives": 6
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "James",
+        "lastName": "Harvie",
+        "total": null,
+        "status": "nc",
+        "bike": "BETA 300",
+        "penalties": {
+          "zeros": 0,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      }
+    ]
+  },
+  {
+    "className": "Trial 3",
+    "classCode": "T3",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Zachary",
+        "lastName": "Mularczyk",
+        "total": 19,
+        "status": "placed",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 4
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 15
+          }
+        ],
+        "penalties": {
+          "zeros": 66,
+          "ones": 11,
+          "twos": 1,
+          "threes": 2,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Corey",
+        "lastName": "Brian",
+        "total": 40,
+        "status": "placed",
+        "bike": "SHERCO ST 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  2,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2,
+                  5,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  5
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 22
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  2,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 18
+          }
+        ],
+        "penalties": {
+          "zeros": 60,
+          "ones": 10,
+          "twos": 4,
+          "threes": 4,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Tom",
+        "lastName": "Linnane",
+        "total": 72,
+        "status": "placed",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  1,
+                  2,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 16,
+                "sections": [
+                  3,
+                  1,
+                  0,
+                  3,
+                  0,
+                  1,
+                  2,
+                  1,
+                  3,
+                  2
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  0,
+                  3,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 41
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  3,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 31
+          }
+        ],
+        "penalties": {
+          "zeros": 41,
+          "ones": 21,
+          "twos": 5,
+          "threes": 12,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 4,
+        "firstName": "Harry",
+        "lastName": "Scott",
+        "total": 79,
+        "status": "placed",
+        "bike": "GAS GAS 125",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 14,
+                "sections": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  1,
+                  2,
+                  2,
+                  0,
+                  2,
+                  1
+                ]
+              },
+              {
+                "total": 16,
+                "sections": [
+                  2,
+                  1,
+                  0,
+                  3,
+                  1,
+                  1,
+                  5,
+                  1,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 16,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  5,
+                  3,
+                  3,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 49
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  1,
+                  5,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 30
+          }
+        ],
+        "penalties": {
+          "zeros": 40,
+          "ones": 20,
+          "twos": 7,
+          "threes": 10,
+          "fives": 3
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Kieran",
+        "lastName": "A Clay",
+        "total": null,
+        "status": "dnf",
+        "bike": "GASGAS280",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 19,
+                "sections": [
+                  0,
+                  1,
+                  1,
+                  2,
+                  0,
+                  1,
+                  1,
+                  5,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  1,
+                  3,
+                  2
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  3,
+                  0,
+                  1,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 18,
+                "sections": [
+                  2,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  5,
+                  1,
+                  5,
+                  3
+                ]
+              }
+            ],
+            "dayTotal": 56
+          }
+        ],
+        "penalties": {
+          "zeros": 16,
+          "ones": 9,
+          "twos": 6,
+          "threes": 5,
+          "fives": 4
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Reece",
+        "lastName": "Chalmers",
+        "total": null,
+        "status": "dns",
+        "bike": "TRS",
+        "note": "Listed NA on the score sheet \u2014 rode Sunday only",
+        "days": [
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  2,
+                  1
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  5,
+                  0,
+                  0,
+                  2,
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 36
+          }
+        ],
+        "penalties": {
+          "zeros": 24,
+          "ones": 6,
+          "twos": 4,
+          "threes": 4,
+          "fives": 2
+        }
+      }
+    ]
+  },
+  {
+    "className": "Trial 4 Plus",
+    "classCode": "T4P",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "John",
+        "lastName": "Moore",
+        "total": 39,
+        "status": "placed",
+        "bike": "VERTIGO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  3,
+                  1
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 22
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  3
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  3
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 17
+          }
+        ],
+        "penalties": {
+          "zeros": 55,
+          "ones": 17,
+          "twos": 2,
+          "threes": 6,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "David",
+        "lastName": "Grice",
+        "total": 47,
+        "status": "placed",
+        "bike": "2019 TRS 300 GOLD",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  2,
+                  2,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 25
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  5
+                ]
+              }
+            ],
+            "dayTotal": 22
+          }
+        ],
+        "penalties": {
+          "zeros": 55,
+          "ones": 13,
+          "twos": 6,
+          "threes": 4,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Paul",
+        "lastName": "Dorrity",
+        "total": 49,
+        "status": "placed",
+        "bike": "TRS 300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 7,
+                "sections": [
+                  2,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 26
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  2
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 12,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  2,
+                  5
+                ]
+              }
+            ],
+            "dayTotal": 23
+          }
+        ],
+        "penalties": {
+          "zeros": 57,
+          "ones": 13,
+          "twos": 4,
+          "threes": 1,
+          "fives": 5
+        }
+      },
+      {
+        "rank": 4,
+        "firstName": "Harry",
+        "lastName": "Moore",
+        "total": 51,
+        "status": "placed",
+        "bike": "VERTIGO 125",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 24
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 13,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  3
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2,
+                  3
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 27
+          }
+        ],
+        "penalties": {
+          "zeros": 54,
+          "ones": 13,
+          "twos": 5,
+          "threes": 6,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 5,
+        "firstName": "Tom",
+        "lastName": "Watt",
+        "total": 62,
+        "status": "placed",
+        "bike": "TRS250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 14,
+                "sections": [
+                  3,
+                  1,
+                  0,
+                  0,
+                  0,
+                  5,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  2,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  2,
+                  0,
+                  2,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 40
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  2,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  3
+                ]
+              }
+            ],
+            "dayTotal": 22
+          }
+        ],
+        "penalties": {
+          "zeros": 47,
+          "ones": 19,
+          "twos": 7,
+          "threes": 3,
+          "fives": 4
+        }
+      },
+      {
+        "rank": 6,
+        "firstName": "Stephen",
+        "lastName": "Kidd",
+        "total": 82,
+        "status": "placed",
+        "bike": "TRS 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  5,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 13,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  3,
+                  0,
+                  0,
+                  2,
+                  0,
+                  2,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 38
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 19,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  3,
+                  0,
+                  0,
+                  5,
+                  3,
+                  3,
+                  2
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  3
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  2,
+                  3,
+                  1
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 44
+          }
+        ],
+        "penalties": {
+          "zeros": 45,
+          "ones": 12,
+          "twos": 7,
+          "threes": 12,
+          "fives": 4
+        }
+      },
+      {
+        "rank": 7,
+        "firstName": "Archie",
+        "lastName": "Hannaford",
+        "total": 82,
+        "status": "placed",
+        "bike": "VERTIGO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 13,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  5,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 35
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  5,
+                  1,
+                  2
+                ]
+              },
+              {
+                "total": 17,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  2,
+                  5,
+                  2,
+                  5
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  3,
+                  2,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 47
+          }
+        ],
+        "penalties": {
+          "zeros": 42,
+          "ones": 17,
+          "twos": 10,
+          "threes": 5,
+          "fives": 6
+        }
+      },
+      {
+        "rank": 8,
+        "firstName": "Stuart",
+        "lastName": "Aitken",
+        "total": 98,
+        "status": "placed",
+        "bike": "BETA EVO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 19,
+                "sections": [
+                  5,
+                  0,
+                  3,
+                  1,
+                  0,
+                  1,
+                  3,
+                  5,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  3,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  3,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 46
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 21,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  5,
+                  3,
+                  2,
+                  5
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  3,
+                  2,
+                  1
+                ]
+              },
+              {
+                "total": 12,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  1,
+                  2,
+                  2
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  3,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 52
+          }
+        ],
+        "penalties": {
+          "zeros": 40,
+          "ones": 14,
+          "twos": 6,
+          "threes": 14,
+          "fives": 6
+        }
+      },
+      {
+        "rank": 9,
+        "firstName": "Angus",
+        "lastName": "Mcintyre",
+        "total": 103,
+        "status": "placed",
+        "bike": "TRS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 17,
+                "sections": [
+                  5,
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  3,
+                  2,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 16,
+                "sections": [
+                  1,
+                  0,
+                  5,
+                  1,
+                  0,
+                  0,
+                  3,
+                  5,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 13,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  2,
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  1,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 56
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 15,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  3
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  3
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 12,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  5
+                ]
+              }
+            ],
+            "dayTotal": 47
+          }
+        ],
+        "penalties": {
+          "zeros": 40,
+          "ones": 14,
+          "twos": 5,
+          "threes": 13,
+          "fives": 8
+        }
+      },
+      {
+        "rank": 10,
+        "firstName": "Tim",
+        "lastName": "Leed",
+        "total": 123,
+        "status": "placed",
+        "bike": "ARTIC LEOPARD",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 26,
+                "sections": [
+                  5,
+                  2,
+                  0,
+                  3,
+                  0,
+                  5,
+                  5,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              {
+                "total": 19,
+                "sections": [
+                  5,
+                  3,
+                  3,
+                  3,
+                  0,
+                  0,
+                  2,
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 13,
+                "sections": [
+                  1,
+                  1,
+                  3,
+                  2,
+                  0,
+                  1,
+                  3,
+                  0,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  1,
+                  3,
+                  0,
+                  1,
+                  0,
+                  1,
+                  3,
+                  1,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 69
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 12,
+                "sections": [
+                  1,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  2,
+                  2,
+                  3
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  1,
+                  2,
+                  0,
+                  3,
+                  0,
+                  0,
+                  3,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              {
+                "total": 22,
+                "sections": [
+                  1,
+                  2,
+                  0,
+                  2,
+                  1,
+                  3,
+                  2,
+                  3,
+                  5,
+                  3
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 54
+          }
+        ],
+        "penalties": {
+          "zeros": 22,
+          "ones": 22,
+          "twos": 17,
+          "threes": 14,
+          "fives": 5
+        }
+      }
+    ]
+  },
+  {
+    "className": "Trial 4",
+    "classCode": "T4",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Gary",
+        "lastName": "Boniface",
+        "total": 11,
+        "status": "placed",
+        "bike": "TRS 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 4
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  2,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 7
+          }
+        ],
+        "penalties": {
+          "zeros": 70,
+          "ones": 9,
+          "twos": 1,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Tom",
+        "lastName": "Floyd",
+        "total": 13,
+        "status": "placed",
+        "bike": "GAS GAS 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 4
+          }
+        ],
+        "penalties": {
+          "zeros": 71,
+          "ones": 8,
+          "twos": 0,
+          "threes": 0,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Asha",
+        "lastName": "Nuttall",
+        "total": 19,
+        "status": "placed",
+        "bike": "TRS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  1,
+                  1,
+                  2,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 10
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          }
+        ],
+        "penalties": {
+          "zeros": 69,
+          "ones": 5,
+          "twos": 4,
+          "threes": 2,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 4,
+        "firstName": "Zach",
+        "lastName": "Borgas",
+        "total": 29,
+        "status": "placed",
+        "bike": "GAS GAS TXT 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  5,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 18
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  3,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 11
+          }
+        ],
+        "penalties": {
+          "zeros": 62,
+          "ones": 14,
+          "twos": 1,
+          "threes": 1,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 5,
+        "firstName": "Gary",
+        "lastName": "Siani",
+        "total": 76,
+        "status": "placed",
+        "bike": "BETA 200",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 16,
+                "sections": [
+                  2,
+                  5,
+                  0,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  1,
+                  3
+                ]
+              },
+              {
+                "total": 17,
+                "sections": [
+                  3,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  2,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 44
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 15,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  1,
+                  3,
+                  2,
+                  3,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  5,
+                  0,
+                  0,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 32
+          }
+        ],
+        "penalties": {
+          "zeros": 47,
+          "ones": 12,
+          "twos": 9,
+          "threes": 7,
+          "fives": 5
+        }
+      },
+      {
+        "rank": 6,
+        "firstName": "Clark",
+        "lastName": "Chesher",
+        "total": 77,
+        "status": "placed",
+        "bike": "BETA EVO 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 21,
+                "sections": [
+                  1,
+                  5,
+                  2,
+                  2,
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  5
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  3,
+                  0,
+                  3,
+                  1,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 50
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 18,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  5,
+                  5,
+                  3
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 27
+          }
+        ],
+        "penalties": {
+          "zeros": 49,
+          "ones": 16,
+          "twos": 2,
+          "threes": 4,
+          "fives": 9
+        }
+      },
+      {
+        "rank": 7,
+        "firstName": "Hamish",
+        "lastName": "Brinkman",
+        "total": 143,
+        "status": "placed",
+        "bike": "SHERCO 250 ST FACTORY",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 22,
+                "sections": [
+                  3,
+                  1,
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  5,
+                  5,
+                  3
+                ]
+              },
+              {
+                "total": 14,
+                "sections": [
+                  3,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  3,
+                  5,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 23,
+                "sections": [
+                  5,
+                  0,
+                  2,
+                  1,
+                  0,
+                  1,
+                  3,
+                  5,
+                  1,
+                  5
+                ]
+              },
+              {
+                "total": 19,
+                "sections": [
+                  5,
+                  5,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  1,
+                  3,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 78
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 19,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  1,
+                  5,
+                  2,
+                  5,
+                  2
+                ]
+              },
+              {
+                "total": 24,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  1,
+                  5,
+                  3,
+                  5,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  2,
+                  5
+                ]
+              },
+              {
+                "total": 14,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  3,
+                  5,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 65
+          }
+        ],
+        "penalties": {
+          "zeros": 30,
+          "ones": 14,
+          "twos": 9,
+          "threes": 12,
+          "fives": 15
+        }
+      },
+      {
+        "rank": 8,
+        "firstName": "Dean",
+        "lastName": "Kennedy",
+        "total": 200,
+        "status": "placed",
+        "bike": "GAS GAS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 28,
+                "sections": [
+                  5,
+                  5,
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  5,
+                  1,
+                  5
+                ]
+              },
+              {
+                "total": 29,
+                "sections": [
+                  5,
+                  3,
+                  5,
+                  2,
+                  2,
+                  0,
+                  0,
+                  5,
+                  5,
+                  2
+                ]
+              },
+              {
+                "total": 22,
+                "sections": [
+                  3,
+                  3,
+                  3,
+                  0,
+                  1,
+                  2,
+                  5,
+                  3,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 23,
+                "sections": [
+                  2,
+                  3,
+                  3,
+                  0,
+                  1,
+                  1,
+                  1,
+                  5,
+                  5,
+                  2
+                ]
+              }
+            ],
+            "dayTotal": 102
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 34,
+                "sections": [
+                  5,
+                  5,
+                  5,
+                  1,
+                  5,
+                  3,
+                  3,
+                  3,
+                  3,
+                  1
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  3,
+                  5,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 27,
+                "sections": [
+                  0,
+                  5,
+                  5,
+                  2,
+                  2,
+                  2,
+                  5,
+                  3,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 22,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  5,
+                  3,
+                  3,
+                  3,
+                  3,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 98
+          }
+        ],
+        "penalties": {
+          "zeros": 18,
+          "ones": 10,
+          "twos": 10,
+          "threes": 20,
+          "fives": 22
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Stan",
+        "lastName": "Mularczyk",
+        "total": null,
+        "status": "dnf",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  5,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  2,
+                  1,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 26
+          }
+        ],
+        "penalties": {
+          "zeros": 29,
+          "ones": 6,
+          "twos": 1,
+          "threes": 1,
+          "fives": 3
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "David",
+        "lastName": "Horne",
+        "total": null,
+        "status": "dnf",
+        "bike": "GAS GAS 280",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 14,
+                "sections": [
+                  5,
+                  1,
+                  1,
+                  5,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  3,
+                  0,
+                  1,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  5,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 37
+          }
+        ],
+        "penalties": {
+          "zeros": 22,
+          "ones": 10,
+          "twos": 3,
+          "threes": 2,
+          "fives": 3
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "John",
+        "lastName": "Rees",
+        "total": null,
+        "status": "dnf",
+        "bike": "SHERCO 300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 9,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  2,
+                  2,
+                  2,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  3,
+                  2,
+                  0,
+                  2,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  3,
+                  5,
+                  2,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 44
+          }
+        ],
+        "penalties": {
+          "zeros": 22,
+          "ones": 6,
+          "twos": 6,
+          "threes": 2,
+          "fives": 4
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Carlos",
+        "lastName": "Swinton-Lee",
+        "total": null,
+        "status": "dns",
+        "bike": "TRS 250",
+        "penalties": {
+          "zeros": 0,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "James",
+        "lastName": "Little",
+        "total": null,
+        "status": "nc",
+        "penalties": {
+          "zeros": 6,
+          "ones": 12,
+          "twos": 7,
+          "threes": 9,
+          "fives": 6
+        }
+      }
+    ]
+  },
+  {
+    "className": "Trial 5",
+    "classCode": "T5",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Rachael",
+        "lastName": "Nuttall",
+        "total": 9,
+        "status": "placed",
+        "bike": "TRS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 0
+          }
+        ],
+        "penalties": {
+          "zeros": 75,
+          "ones": 2,
+          "twos": 2,
+          "threes": 1,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Massimo",
+        "lastName": "Siani",
+        "total": 10,
+        "status": "placed",
+        "bike": "BETA 125",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 1
+          }
+        ],
+        "penalties": {
+          "zeros": 75,
+          "ones": 1,
+          "twos": 3,
+          "threes": 1,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Andrew",
+        "lastName": "Ward",
+        "total": 14,
+        "status": "placed",
+        "bike": "HONDA 250TLR",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 11
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 3
+          }
+        ],
+        "penalties": {
+          "zeros": 69,
+          "ones": 8,
+          "twos": 3,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 4,
+        "firstName": "Steve",
+        "lastName": "Banks",
+        "total": 15,
+        "status": "placed",
+        "bike": "HONDA 200",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 8
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 7
+          }
+        ],
+        "penalties": {
+          "zeros": 74,
+          "ones": 3,
+          "twos": 1,
+          "threes": 0,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 5,
+        "firstName": "Sean",
+        "lastName": "Collins",
+        "total": 20,
+        "status": "placed",
+        "bike": "SHERCO 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 7,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 13
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 7
+          }
+        ],
+        "penalties": {
+          "zeros": 71,
+          "ones": 5,
+          "twos": 1,
+          "threes": 1,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 6,
+        "firstName": "Joshua",
+        "lastName": "Van Baalen",
+        "total": 41,
+        "status": "placed",
+        "bike": "TRS 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 14,
+                "sections": [
+                  3,
+                  0,
+                  2,
+                  3,
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  2,
+                  0,
+                  1,
+                  2,
+                  0,
+                  2,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  3,
+                  1,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 32
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          }
+        ],
+        "penalties": {
+          "zeros": 60,
+          "ones": 9,
+          "twos": 5,
+          "threes": 4,
+          "fives": 2
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Stuart",
+        "lastName": "Truman",
+        "total": null,
+        "status": "nc",
+        "bike": "SHERCO 300",
+        "penalties": {
+          "zeros": 66,
+          "ones": 8,
+          "twos": 2,
+          "threes": 0,
+          "fives": 4
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Mark",
+        "lastName": "Ruff",
+        "total": null,
+        "status": "nc",
+        "bike": "EM",
+        "penalties": {
+          "zeros": 64,
+          "ones": 5,
+          "twos": 3,
+          "threes": 2,
+          "fives": 6
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Giulia",
+        "lastName": "Little",
+        "total": null,
+        "status": "nc",
+        "bike": "BEAT EVO250",
+        "penalties": {
+          "zeros": 55,
+          "ones": 5,
+          "twos": 6,
+          "threes": 8,
+          "fives": 6
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Warwick",
+        "lastName": "Harris",
+        "total": null,
+        "status": "nc",
+        "bike": "VERTIGO 250",
+        "penalties": {
+          "zeros": 34,
+          "ones": 3,
+          "twos": 1,
+          "threes": 2,
+          "fives": 0
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Michael",
+        "lastName": "Libreri",
+        "total": null,
+        "status": "nc",
+        "bike": "HONDA TLR250",
+        "penalties": {
+          "zeros": 16,
+          "ones": 8,
+          "twos": 5,
+          "threes": 5,
+          "fives": 6
+        }
+      }
+    ]
+  },
+  {
+    "className": "Masters",
+    "classCode": "MAS",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Dean",
+        "lastName": "Nuttall",
+        "total": 23,
+        "status": "placed",
+        "bike": "TRS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 14
+          }
+        ],
+        "penalties": {
+          "zeros": 69,
+          "ones": 6,
+          "twos": 2,
+          "threes": 1,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Paul",
+        "lastName": "Garrett",
+        "total": 57,
+        "status": "placed",
+        "bike": "VERTIGO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 18,
+                "sections": [
+                  5,
+                  1,
+                  5,
+                  1,
+                  0,
+                  0,
+                  3,
+                  1,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 34
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  2,
+                  0,
+                  3,
+                  0,
+                  0,
+                  1,
+                  3,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 23
+          }
+        ],
+        "penalties": {
+          "zeros": 53,
+          "ones": 14,
+          "twos": 4,
+          "threes": 5,
+          "fives": 4
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Peter",
+        "lastName": "Wines",
+        "total": 111,
+        "status": "placed",
+        "bike": "TRS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 20,
+                "sections": [
+                  1,
+                  1,
+                  3,
+                  3,
+                  1,
+                  0,
+                  2,
+                  1,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  1,
+                  3,
+                  1
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  2,
+                  1,
+                  1,
+                  3,
+                  0,
+                  0,
+                  3,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  3,
+                  0,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 53
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 27,
+                "sections": [
+                  0,
+                  5,
+                  5,
+                  1,
+                  0,
+                  5,
+                  3,
+                  3,
+                  2,
+                  3
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  5,
+                  3,
+                  1
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 58
+          }
+        ],
+        "penalties": {
+          "zeros": 34,
+          "ones": 19,
+          "twos": 5,
+          "threes": 14,
+          "fives": 8
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Matthew",
+        "lastName": "Hannaford",
+        "total": null,
+        "status": "dnf",
+        "bike": "VERTIGO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 12,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  2,
+                  0,
+                  3,
+                  3,
+                  1,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  3,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 32
+          }
+        ],
+        "penalties": {
+          "zeros": 24,
+          "ones": 8,
+          "twos": 2,
+          "threes": 5,
+          "fives": 1
+        }
+      }
+    ]
+  },
+  {
+    "className": "Veterans",
+    "classCode": "VET",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Glenn",
+        "lastName": "Crafter",
+        "total": 0,
+        "status": "placed",
+        "bike": "SHERCO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 0
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 0
+          }
+        ],
+        "penalties": {
+          "zeros": 80,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Cade",
+        "lastName": "Brian",
+        "total": 12,
+        "status": "placed",
+        "bike": "SHERCO ST300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 7,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 7
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3
+                ]
+              }
+            ],
+            "dayTotal": 5
+          }
+        ],
+        "penalties": {
+          "zeros": 74,
+          "ones": 4,
+          "twos": 0,
+          "threes": 1,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Simon",
+        "lastName": "Van Baalen",
+        "total": 20,
+        "status": "placed",
+        "bike": "TRS 300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 17
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 3
+          }
+        ],
+        "penalties": {
+          "zeros": 71,
+          "ones": 5,
+          "twos": 1,
+          "threes": 1,
+          "fives": 2
+        }
+      },
+      {
+        "rank": 4,
+        "firstName": "Ken",
+        "lastName": "Cook",
+        "total": 22,
+        "status": "placed",
+        "bike": "BETA",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 5
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  5,
+                  1,
+                  1,
+                  1
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 17
+          }
+        ],
+        "penalties": {
+          "zeros": 65,
+          "ones": 12,
+          "twos": 1,
+          "threes": 1,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 5,
+        "firstName": "Matt",
+        "lastName": "Langtree",
+        "total": 28,
+        "status": "placed",
+        "bike": "GASGAS 250 TXT PRO",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  2,
+                  1,
+                  1,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 18
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 10
+          }
+        ],
+        "penalties": {
+          "zeros": 64,
+          "ones": 9,
+          "twos": 4,
+          "threes": 2,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 6,
+        "firstName": "Troy",
+        "lastName": "Johnson",
+        "total": 49,
+        "status": "placed",
+        "bike": "SHERCO 300 ST 2015",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 12,
+                "sections": [
+                  3,
+                  1,
+                  0,
+                  0,
+                  5,
+                  2,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  3,
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 24
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  1,
+                  2,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  3,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  5,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 25
+          }
+        ],
+        "penalties": {
+          "zeros": 55,
+          "ones": 13,
+          "twos": 6,
+          "threes": 3,
+          "fives": 3
+        }
+      },
+      {
+        "rank": 7,
+        "firstName": "Colin",
+        "lastName": "Ford",
+        "total": 56,
+        "status": "placed",
+        "bike": "BETA EVO 300",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 13,
+                "sections": [
+                  0,
+                  1,
+                  3,
+                  0,
+                  1,
+                  2,
+                  5,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 16,
+                "sections": [
+                  1,
+                  1,
+                  2,
+                  0,
+                  5,
+                  2,
+                  1,
+                  3,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  5,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 40
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  2,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 16
+          }
+        ],
+        "penalties": {
+          "zeros": 51,
+          "ones": 16,
+          "twos": 7,
+          "threes": 2,
+          "fives": 4
+        }
+      },
+      {
+        "rank": 8,
+        "firstName": "Hiroshi",
+        "lastName": "Ishizaki",
+        "total": 92,
+        "status": "placed",
+        "bike": "TRS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  1,
+                  1,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 12,
+                "sections": [
+                  2,
+                  1,
+                  1,
+                  1,
+                  3,
+                  1,
+                  3,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 20,
+                "sections": [
+                  3,
+                  1,
+                  1,
+                  3,
+                  0,
+                  3,
+                  5,
+                  0,
+                  3,
+                  1
+                ]
+              },
+              {
+                "total": 14,
+                "sections": [
+                  0,
+                  5,
+                  3,
+                  0,
+                  0,
+                  3,
+                  3,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 51
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  2,
+                  3,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  2,
+                  2,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  3,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  3
+                ]
+              },
+              {
+                "total": 16,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  5,
+                  0,
+                  0,
+                  0,
+                  5,
+                  5,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 41
+          }
+        ],
+        "penalties": {
+          "zeros": 41,
+          "ones": 15,
+          "twos": 5,
+          "threes": 14,
+          "fives": 5
+        }
+      },
+      {
+        "rank": 9,
+        "firstName": "Craig",
+        "lastName": "Watson",
+        "total": 201,
+        "status": "placed",
+        "bike": "GASGAS",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 30,
+                "sections": [
+                  1,
+                  3,
+                  3,
+                  3,
+                  2,
+                  5,
+                  3,
+                  2,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 15,
+                "sections": [
+                  0,
+                  5,
+                  3,
+                  1,
+                  0,
+                  1,
+                  3,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 24,
+                "sections": [
+                  2,
+                  2,
+                  5,
+                  3,
+                  3,
+                  3,
+                  5,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 24,
+                "sections": [
+                  3,
+                  2,
+                  5,
+                  3,
+                  0,
+                  3,
+                  1,
+                  2,
+                  2,
+                  3
+                ]
+              }
+            ],
+            "dayTotal": 93
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 26,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  5,
+                  2,
+                  0,
+                  3,
+                  3,
+                  3,
+                  5
+                ]
+              },
+              {
+                "total": 19,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  1,
+                  2,
+                  2,
+                  3,
+                  3,
+                  3
+                ]
+              },
+              {
+                "total": 13,
+                "sections": [
+                  0,
+                  0,
+                  5,
+                  0,
+                  1,
+                  0,
+                  3,
+                  3,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 50,
+                "sections": [
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5,
+                  5
+                ]
+              }
+            ],
+            "dayTotal": 108
+          }
+        ],
+        "penalties": {
+          "zeros": 17,
+          "ones": 10,
+          "twos": 10,
+          "threes": 22,
+          "fives": 21
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "John",
+        "lastName": "Wilson",
+        "total": null,
+        "status": "dnf",
+        "bike": "TRS 250",
+        "days": [
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  1,
+                  5,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 16
+          }
+        ],
+        "penalties": {
+          "zeros": 34,
+          "ones": 3,
+          "twos": 0,
+          "threes": 1,
+          "fives": 2
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Craig",
+        "lastName": "Genner",
+        "total": null,
+        "status": "dnf",
+        "bike": "TRS 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 9,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  2,
+                  1
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  2,
+                  3,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  1,
+                  1,
+                  1,
+                  0,
+                  0,
+                  2,
+                  2,
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 27
+          }
+        ],
+        "penalties": {
+          "zeros": 23,
+          "ones": 11,
+          "twos": 4,
+          "threes": 1,
+          "fives": 1
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Les",
+        "lastName": "Pattinson",
+        "total": null,
+        "status": "dns",
+        "bike": "VERTIGO",
+        "days": [
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 0
+          }
+        ],
+        "penalties": {
+          "zeros": 10,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Paul",
+        "lastName": "Arnott",
+        "total": null,
+        "status": "dns",
+        "bike": "TRS",
+        "penalties": {
+          "zeros": 0,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Scott",
+        "lastName": "Fleming",
+        "total": null,
+        "status": "nc",
+        "bike": "VERTIGO 250",
+        "penalties": {
+          "zeros": 51,
+          "ones": 15,
+          "twos": 3,
+          "threes": 6,
+          "fives": 5
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Hugh",
+        "lastName": "Harvie",
+        "total": null,
+        "status": "nc",
+        "bike": "VERTIGO 300",
+        "penalties": {
+          "zeros": 19,
+          "ones": 2,
+          "twos": 3,
+          "threes": 11,
+          "fives": 5
+        }
+      }
+    ]
+  },
+  {
+    "className": "Twinshock",
+    "classCode": "TS",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Tim",
+        "lastName": "Lewis",
+        "total": 11,
+        "status": "placed",
+        "bike": "TY250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  5,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 8
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 3
+          }
+        ],
+        "penalties": {
+          "zeros": 74,
+          "ones": 4,
+          "twos": 1,
+          "threes": 0,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Peter",
+        "lastName": "Spencer",
+        "total": 13,
+        "status": "placed",
+        "bike": "HONDA TLR 250",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 1
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            ],
+            "dayTotal": 12
+          }
+        ],
+        "penalties": {
+          "zeros": 74,
+          "ones": 3,
+          "twos": 1,
+          "threes": 1,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 3,
+        "firstName": "Josh",
+        "lastName": "Pilcher",
+        "total": 15,
+        "status": "placed",
+        "bike": "CZ 175",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  1,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 6
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 2,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 9
+          }
+        ],
+        "penalties": {
+          "zeros": 70,
+          "ones": 8,
+          "twos": 1,
+          "threes": 0,
+          "fives": 1
+        }
+      },
+      {
+        "rank": 4,
+        "firstName": "Jacob",
+        "lastName": "Whittle",
+        "total": 60,
+        "status": "placed",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 12,
+                "sections": [
+                  1,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  3,
+                  5,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  2,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 6,
+                "sections": [
+                  5,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 27
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3,
+                  2,
+                  2
+                ]
+              },
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  3,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 10,
+                "sections": [
+                  0,
+                  1,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  3
+                ]
+              },
+              {
+                "total": 4,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  3
+                ]
+              }
+            ],
+            "dayTotal": 33
+          }
+        ],
+        "penalties": {
+          "zeros": 53,
+          "ones": 14,
+          "twos": 3,
+          "threes": 5,
+          "fives": 5
+        }
+      }
+    ]
+  },
+  {
+    "className": "Juniors",
+    "classCode": "JUN",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Rhys",
+        "lastName": "Brian",
+        "total": 7,
+        "status": "placed",
+        "bike": "SHERCO FACTORY 125",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 1,
+                "sections": [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 7
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 0
+          }
+        ],
+        "penalties": {
+          "zeros": 77,
+          "ones": 1,
+          "twos": 0,
+          "threes": 2,
+          "fives": 0
+        }
+      },
+      {
+        "rank": 2,
+        "firstName": "Mason",
+        "lastName": "Brady",
+        "total": 20,
+        "status": "placed",
+        "bike": "TRS80",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 6,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 5,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 17
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 3,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 3
+          }
+        ],
+        "penalties": {
+          "zeros": 74,
+          "ones": 1,
+          "twos": 0,
+          "threes": 3,
+          "fives": 2
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Nelson",
+        "lastName": "Harris",
+        "total": null,
+        "status": "dnf",
+        "bike": "OSET 20R",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 10,
+                "sections": [
+                  3,
+                  0,
+                  1,
+                  3,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 14,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  3,
+                  0,
+                  3,
+                  0,
+                  1,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 13,
+                "sections": [
+                  5,
+                  5,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  1,
+                  0
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  3,
+                  2,
+                  0,
+                  0,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 44
+          }
+        ],
+        "penalties": {
+          "zeros": 23,
+          "ones": 5,
+          "twos": 3,
+          "threes": 6,
+          "fives": 3
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Cooper",
+        "lastName": "Horne",
+        "total": null,
+        "status": "dnf",
+        "bike": "GAS GAS 80",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 23,
+                "sections": [
+                  3,
+                  5,
+                  1,
+                  5,
+                  5,
+                  1,
+                  2,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 13,
+                "sections": [
+                  2,
+                  5,
+                  0,
+                  2,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              },
+              {
+                "total": 9,
+                "sections": [
+                  5,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3
+                ]
+              },
+              {
+                "total": 7,
+                "sections": [
+                  2,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 52
+          }
+        ],
+        "penalties": {
+          "zeros": 22,
+          "ones": 5,
+          "twos": 4,
+          "threes": 3,
+          "fives": 6
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Toby",
+        "lastName": "Harris",
+        "total": null,
+        "status": "nc",
+        "bike": "SHERCO 125",
+        "penalties": {
+          "zeros": 29,
+          "ones": 3,
+          "twos": 1,
+          "threes": 6,
+          "fives": 1
+        }
+      }
+    ]
+  },
+  {
+    "className": "Sub Junior",
+    "classCode": "SJ",
+    "riders": [
+      {
+        "rank": 1,
+        "firstName": "Mimi",
+        "lastName": "Brady",
+        "total": 24,
+        "status": "placed",
+        "bike": "TRS ELECTRIC",
+        "days": [
+          {
+            "label": "Saturday",
+            "shortLabel": "Sat",
+            "laps": [
+              {
+                "total": 11,
+                "sections": [
+                  0,
+                  0,
+                  3,
+                  5,
+                  0,
+                  3,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "total": 8,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  3,
+                  0,
+                  2,
+                  0,
+                  0,
+                  0,
+                  3
+                ]
+              }
+            ],
+            "dayTotal": 19
+          },
+          {
+            "label": "Sunday",
+            "shortLabel": "Sun",
+            "laps": [
+              {
+                "total": 5,
+                "sections": [
+                  3,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2
+                ]
+              },
+              {
+                "total": 0,
+                "sections": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "dayTotal": 5
+          }
+        ],
+        "penalties": {
+          "zeros": 32,
+          "ones": 0,
+          "twos": 2,
+          "threes": 5,
+          "fives": 1
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Oliver",
+        "lastName": "Langtree",
+        "total": null,
+        "status": "nc",
+        "bike": "VERTIGO MINI VANDAL",
+        "penalties": {
+          "zeros": 24,
+          "ones": 7,
+          "twos": 0,
+          "threes": 6,
+          "fives": 3
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Hugo",
+        "lastName": "Langtree",
+        "total": null,
+        "status": "nc",
+        "bike": "TRS ELECTRIC 20\"",
+        "penalties": {
+          "zeros": 0,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      },
+      {
+        "rank": null,
+        "firstName": "Porter",
+        "lastName": "Brideson",
+        "total": null,
+        "status": "nc",
+        "bike": "OSET 16INCH ELECTRIC",
+        "penalties": {
+          "zeros": 0,
+          "ones": 0,
+          "twos": 0,
+          "threes": 0,
+          "fives": 0
+        }
+      }
+    ]
+  }
+]

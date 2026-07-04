@@ -3,10 +3,23 @@
 use App\Services\DemoEvent;
 use App\Services\EventTemplates;
 
-it('lists the three real-event templates', function () {
-    expect(EventTemplates::options())->toHaveKeys([
-        'glenmaggie-2025', 'tassie-2day-2026', 'pptc-round1-2026',
-    ]);
+it('lists the real-event templates', function () {
+    expect(EventTemplates::options())->toHaveKeys(['glenmaggie-2025', 'glenmaggie-2026']);
+});
+
+it('loads glenmaggie 2026 with its real 10-section layout', function () {
+    $template = app(EventTemplates::class)->load('glenmaggie-2026');
+
+    expect($template['classes'])->toHaveCount(11)
+        ->and(collect($template['classes'])->sum(fn ($c) => count($c['riders'])))->toBe(77)
+        ->and(collect($template['classes'])->max('section_count'))->toBe(10);
+
+    // Matt Langtree's staged scores must sum to his real published total.
+    $veterans = collect($template['classes'])->firstWhere('name', 'Veterans');
+    $matt = collect($veterans['riders'])->firstWhere('name', 'Matt Langtree');
+
+    expect(collect($matt['scores'])->flatten()->sum())->toBe(28)
+        ->and($veterans['laps'])->toBe(8);
 });
 
 it('loads glenmaggie with exact per-section scores', function () {
@@ -33,20 +46,6 @@ it('loads glenmaggie with exact per-section scores', function () {
     $templateRider = $template['classes'][0]['riders'][0];
 
     expect(collect($templateRider['scores'])->flatten()->sum())->toBe($sourceRider['total']);
-});
-
-it('synthesises sections that sum to the real lap totals', function () {
-    $template = app(EventTemplates::class)->load('tassie-2day-2026');
-
-    $source = json_decode(file_get_contents(database_path('templates/tassie-2day-2026.json')), true);
-    $sourceRider = $source[0]['riders'][0];
-    $templateRider = $template['classes'][0]['riders'][0];
-
-    $sourceLapTotals = collect($sourceRider['days'])->flatMap(fn ($d) => collect($d['laps'])->pluck('total'));
-
-    foreach ($sourceLapTotals as $i => $total) {
-        expect(array_sum($templateRider['scores'][$i + 1]))->toBe($total);
-    }
 });
 
 it('creates a staged event from a template with the real field', function () {

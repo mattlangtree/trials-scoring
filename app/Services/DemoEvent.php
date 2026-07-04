@@ -70,7 +70,11 @@ class DemoEvent
             'cards_in_at' => $start->copy()->addMinutes($minutes + 15),
         ]);
 
-        $sections = collect(range(1, 15))->map(fn (int $number) => $event->sections()->create([
+        $sectionCount = $blueprint
+            ? max(array_column($blueprint['classes'], 'section_count'))
+            : 15;
+
+        $sections = collect(range(1, $sectionCount))->map(fn (int $number) => $event->sections()->create([
             'number' => $number,
             'claim_code' => Section::generateClaimCode($event->id),
         ]));

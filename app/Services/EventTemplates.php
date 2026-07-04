@@ -23,15 +23,10 @@ class EventTemplates
             'name' => 'Glenmaggie Easter Trial 2025',
             'detail' => 'Real per-section scores — 62 riders, 5 classes, 2 days',
         ],
-        'tassie-2day-2026' => [
-            'file' => 'tassie-2day-2026.json',
-            'name' => 'Tassie 2-Day 2026',
-            'detail' => 'Real lap totals, synthesised sections — 47 riders, 8 classes',
-        ],
-        'pptc-round1-2026' => [
-            'file' => 'pptc-round1-2026.json',
-            'name' => 'PPTC Club Round 1 2026',
-            'detail' => 'Real lap totals, synthesised sections — 32 riders, 7 classes',
+        'glenmaggie-2026' => [
+            'file' => 'glenmaggie-2026.json',
+            'name' => 'Glenmaggie Easter Trial 2026',
+            'detail' => 'Real per-section scores — 77 riders, 11 classes, 2 days',
         ],
     ];
 
@@ -61,10 +56,12 @@ class EventTemplates
         foreach ($data as $class) {
             $riders = [];
             $classLaps = 1;
+            $sectionCount = 0;
 
             foreach ($class['riders'] as $rider) {
                 $scores = $this->riderScores($rider);
                 $classLaps = max($classLaps, count($scores));
+                $sectionCount = max($sectionCount, ...array_map('count', $scores ?: [[]]));
 
                 $riders[] = [
                     'name' => trim($rider['firstName'].' '.$rider['lastName']),
@@ -75,7 +72,7 @@ class EventTemplates
             $classes[] = [
                 'name' => $class['className'],
                 'laps' => $classLaps,
-                'section_count' => self::SECTIONS_PER_LAP,
+                'section_count' => $sectionCount ?: self::SECTIONS_PER_LAP,
                 'riders' => $riders,
             ];
         }
