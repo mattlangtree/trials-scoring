@@ -103,7 +103,17 @@ new class extends Component
         $finished = [];
         $dns = [];
         $nc = [];
+        $dnf = [];
         $maxLaps = (int) $this->event->riderClasses()->max('laps');
+
+        // A DNF rider stays in the lap rows while their replay is still
+        // delivering scores; once nothing is left to release they have
+        // retired for good and move to the DNF box.
+        $pendingByRider = \App\Models\StagedScore::where('event_id', $this->event->id)
+            ->whereNull('released_at')
+            ->selectRaw('rider_id, count(*) as pending')
+            ->groupBy('rider_id')
+            ->pluck('pending', 'rider_id');
 
         $riders = $this->event->riders()
             ->with('riderClass')
@@ -126,6 +136,8 @@ new class extends Component
                 $dns[] = $entry;
             } elseif ($rider->status === \App\Models\Rider::STATUS_NC) {
                 $nc[] = $entry;
+            } elseif ($rider->status === \App\Models\Rider::STATUS_DNF && ($pendingByRider[$rider->id] ?? 0) === 0) {
+                $dnf[] = $entry;
             } elseif ($rider->scored >= $rider->riderClass->laps * $sections) {
                 $finished[] = $entry;
             } else {
@@ -133,7 +145,7 @@ new class extends Component
             }
         }
 
-        return ['laps' => $laps, 'finished' => $finished, 'dns' => $dns, 'nc' => $nc, 'maxLaps' => $maxLaps];
+        return ['laps' => $laps, 'finished' => $finished, 'dns' => $dns, 'nc' => $nc, 'dnf' => $dnf, 'maxLaps' => $maxLaps];
     }
 };
 ?>
@@ -232,7 +244,7 @@ new class extends Component
                     <h2 class="font-medium">Lap progress</h2>
                 </div>
                 <div class="divide-y divide-zinc-800/60">
-                    @foreach (['dns' => 'DNS', 'nc' => 'NC'] as $group => $label)
+                    @foreach (['dns' => 'DNS', 'nc' => 'NC', 'dnf' => 'DNF'] as $group => $label)
                         @if ($this->lapBoard[$group] !== [])
                             <div class="px-4 py-4 flex gap-4">
                                 <span class="w-14 shrink-0 pt-0.5 text-xs uppercase tracking-wide text-zinc-600">{{ $label }}</span>
@@ -249,7 +261,7 @@ new class extends Component
                         @endif
                     @endforeach
                     @foreach (range(1, max(1, $this->lapBoard['maxLaps'])) as $lap)
-                        <div class="px-4 py-4 flex gap-4 {{ $lap === 1 && ($this->lapBoard['dns'] !== [] || $this->lapBoard['nc'] !== []) ? 'border-t-2! border-t-zinc-700!' : '' }}">
+                        <div class="px-4 py-4 flex gap-4 {{ $lap === 1 && ($this->lapBoard['dns'] !== [] || $this->lapBoard['nc'] !== [] || $this->lapBoard['dnf'] !== []) ? 'border-t-2! border-t-zinc-700!' : '' }}">
                             <span class="w-14 shrink-0 pt-0.5 text-xs uppercase tracking-wide text-zinc-500">Lap {{ $lap }}</span>
                             <div class="flex flex-wrap gap-1.5">
                                 @forelse ($this->lapBoard['laps'][$lap] ?? [] as $rider)

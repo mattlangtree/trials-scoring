@@ -117,7 +117,8 @@ new class extends Component
                                     </td>
                                     <td class="py-2 text-right tabular-nums">{{ $rider->scored }}/{{ $board['class']->laps * $board['class']->section_count }}</td>
                                     <td class="py-2 text-right tabular-nums">{{ $rider->cleans }}</td>
-                                    <td class="py-2 text-right pr-4 tabular-nums">{{ $rider->points ?? 0 }}</td>
+                                    {{-- The score sheet prints DNF where the total would be — no partial totals. --}}
+                                    <td class="py-2 text-right pr-4">—</td>
                                 </tr>
                             @endforeach
 

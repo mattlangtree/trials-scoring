@@ -25,6 +25,25 @@ it('persists status and note onto riders when creating a template event', functi
         ->and($event->riders()->where('name', 'Reece Chalmers')->value('note'))->toContain('NA');
 });
 
+it('parks retired dnf riders in the lap-board dnf box once their replay is exhausted', function () {
+    $event = app(DemoEvent::class)->create(null, minutes: 10, template: 'glenmaggie-2026');
+    app(App\Services\ScoreRelease::class); // sanity: service resolvable
+
+    // Release everything: the event has fully played out.
+    $event->stagedScores()->update(['due_at' => now()->subMinute()]);
+    while (app(App\Services\ScoreRelease::class)->tick($event) > 0) {
+        // drain
+    }
+
+    $component = Livewire::test('dashboard.overview', ['event' => $event]);
+    $board = $component->instance()->lapBoard;
+
+    $dnfCount = $event->riders()->where('status', Rider::STATUS_DNF)->count();
+
+    expect(count($board['dnf']))->toBe($dnfCount)
+        ->and(collect($board['laps'])->flatten(1)->pluck('status'))->each->not->toBe(Rider::STATUS_DNF);
+});
+
 it('groups standings placed then dnf then nc then dns, with shared ranks for ties', function () {
     $world = trialsWorld();
     $event = $world['event'];
