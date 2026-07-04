@@ -101,6 +101,8 @@ new class extends Component
     {
         $laps = [];
         $finished = [];
+        $dns = [];
+        $nc = [];
         $maxLaps = (int) $this->event->riderClasses()->max('laps');
 
         $riders = $this->event->riders()
@@ -115,18 +117,23 @@ new class extends Component
                 'number' => $rider->rider_number,
                 'name' => $rider->name,
                 'class' => $rider->riderClass->name,
+                'status' => $rider->status,
                 'done_in_lap' => $rider->scored % $sections,
                 'sections' => $sections,
             ];
 
-            if ($rider->scored >= $rider->riderClass->laps * $sections) {
+            if ($rider->status === \App\Models\Rider::STATUS_DNS) {
+                $dns[] = $entry;
+            } elseif ($rider->status === \App\Models\Rider::STATUS_NC) {
+                $nc[] = $entry;
+            } elseif ($rider->scored >= $rider->riderClass->laps * $sections) {
                 $finished[] = $entry;
             } else {
                 $laps[intdiv($rider->scored, $sections) + 1][] = $entry;
             }
         }
 
-        return ['laps' => $laps, 'finished' => $finished, 'maxLaps' => $maxLaps];
+        return ['laps' => $laps, 'finished' => $finished, 'dns' => $dns, 'nc' => $nc, 'maxLaps' => $maxLaps];
     }
 };
 ?>
@@ -225,8 +232,24 @@ new class extends Component
                     <h2 class="font-medium">Lap progress</h2>
                 </div>
                 <div class="divide-y divide-zinc-800/60">
+                    @foreach (['dns' => 'DNS', 'nc' => 'NC'] as $group => $label)
+                        @if ($this->lapBoard[$group] !== [])
+                            <div class="px-4 py-4 flex gap-4">
+                                <span class="w-14 shrink-0 pt-0.5 text-xs uppercase tracking-wide text-zinc-600">{{ $label }}</span>
+                                <div class="flex flex-wrap gap-1.5">
+                                    @foreach ($this->lapBoard[$group] as $rider)
+                                        <span wire:key="pill-{{ $rider['number'] }}"
+                                              title="{{ $rider['class'] }} — {{ $label }}"
+                                              class="inline-flex items-center gap-1.5 rounded-full border border-zinc-800 px-2.5 py-0.5 text-xs text-zinc-600">
+                                            <span class="tabular-nums">{{ $rider['number'] }}</span>{{ $rider['name'] }}
+                                        </span>
+                                    @endforeach
+                                </div>
+                            </div>
+                        @endif
+                    @endforeach
                     @foreach (range(1, max(1, $this->lapBoard['maxLaps'])) as $lap)
-                        <div class="px-4 py-4 flex gap-4">
+                        <div class="px-4 py-4 flex gap-4 {{ $lap === 1 && ($this->lapBoard['dns'] !== [] || $this->lapBoard['nc'] !== []) ? 'border-t-2! border-t-zinc-700!' : '' }}">
                             <span class="w-14 shrink-0 pt-0.5 text-xs uppercase tracking-wide text-zinc-500">Lap {{ $lap }}</span>
                             <div class="flex flex-wrap gap-1.5">
                                 @forelse ($this->lapBoard['laps'][$lap] ?? [] as $rider)

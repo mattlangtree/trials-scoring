@@ -133,6 +133,8 @@ class DemoEvent
                     'rider_class_id' => $class->id,
                     'rider_number' => ++$number,
                     'name' => $riderData['name'],
+                    'status' => $riderData['status'] ?? 'placed',
+                    'note' => $riderData['note'] ?? null,
                 ]);
 
                 $attempts = collect($riderData['scores'])->sum(fn ($lap) => count($lap));

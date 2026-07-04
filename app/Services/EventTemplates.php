@@ -65,6 +65,8 @@ class EventTemplates
 
                 $riders[] = [
                     'name' => trim($rider['firstName'].' '.$rider['lastName']),
+                    'status' => $rider['status'] ?? 'placed',
+                    'note' => $rider['note'] ?? null,
                     'scores' => $scores,
                 ];
             }

@@ -86,7 +86,12 @@ new class extends Component
                                    {{ $this->rider === $r->rider_number ? 'bg-zinc-800/80' : 'hover:bg-zinc-900' }}">
                         <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-zinc-800 text-zinc-300 font-semibold tabular-nums text-xs">{{ $r->rider_number }}</span>
                         <span class="flex-1 min-w-0">
-                            <span class="block font-medium truncate">{{ $r->name }}</span>
+                            <span class="block font-medium truncate">
+                                {{ $r->name }}
+                                @if ($r->status !== App\Models\Rider::STATUS_PLACED)
+                                    <span class="ml-1 text-[10px] uppercase tracking-wide text-zinc-500 border border-zinc-700 rounded px-1 py-px">{{ $r->status }}</span>
+                                @endif
+                            </span>
                             <span class="block text-xs text-zinc-500">{{ $r->riderClass->name }}</span>
                         </span>
                         <span class="tabular-nums font-medium">{{ $r->official_points ?? 0 }} pts</span>
@@ -103,8 +108,18 @@ new class extends Component
                 <div class="rounded-xl border border-zinc-800 bg-zinc-900/50">
                     <div class="px-5 py-4 border-b border-zinc-800 flex items-center justify-between">
                         <div>
-                            <h2 class="text-lg font-semibold">#{{ $rider->rider_number }} {{ $rider->name }}</h2>
-                            <p class="text-sm text-zinc-400">{{ $rider->riderClass->name }} — {{ $rider->riderClass->laps }} laps × {{ $rider->riderClass->section_count }} sections</p>
+                            <h2 class="text-lg font-semibold">
+                                #{{ $rider->rider_number }} {{ $rider->name }}
+                                @if ($rider->status !== App\Models\Rider::STATUS_PLACED)
+                                    <span class="ml-1 align-middle text-xs uppercase tracking-wide text-zinc-400 border border-zinc-700 rounded px-1.5 py-0.5">{{ $rider->status }}</span>
+                                @endif
+                            </h2>
+                            <p class="text-sm text-zinc-400">
+                                {{ $rider->riderClass->name }} — {{ $rider->riderClass->laps }} laps × {{ $rider->riderClass->section_count }} sections
+                                @if ($rider->note)
+                                    · {{ $rider->note }}
+                                @endif
+                            </p>
                         </div>
                         @php $official = $rider->scores->filter->isOfficial(); @endphp
                         <div class="text-right">

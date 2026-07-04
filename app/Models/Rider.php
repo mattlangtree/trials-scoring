@@ -11,7 +11,20 @@ class Rider extends Model
 {
     use HasFactory;
 
+    public const STATUS_PLACED = 'placed';
+
+    public const STATUS_DNF = 'dnf';
+
+    public const STATUS_DNS = 'dns';
+
+    public const STATUS_NC = 'nc';
+
     protected $guarded = [];
+
+    public function isCompeting(): bool
+    {
+        return $this->status === self::STATUS_PLACED || $this->status === self::STATUS_DNF;
+    }
 
     public function event(): BelongsTo
     {
