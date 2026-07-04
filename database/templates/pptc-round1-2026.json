@@ -1,0 +1,83 @@
+[
+    {
+        "className": "T1 — Expert",
+        "classCode": "T1",
+        "colour": "green",
+        "riders": [
+            { "rank": 1, "firstName": "Jonathan", "lastName": "Chellas", "laps": [11, 3, 1, 0, 0], "total": 15, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "Kevin", "lastName": "Zarczynski", "laps": [20, 12, 18, 18, 0], "total": 68, "status": "placed", "clubPoints": 20 },
+            { "rank": null, "firstName": "Kyle", "lastName": "Middleton", "laps": [null, null, null, null, null], "total": null, "status": "dns" }
+        ]
+    },
+    {
+        "className": "T2 — A Grade",
+        "classCode": "T2",
+        "colour": "red",
+        "riders": [
+            { "rank": 1, "firstName": "Martin", "lastName": "O'Connor", "laps": [0, 3, 0, 1, 0], "total": 4, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "Sam", "lastName": "Hull", "laps": [0, 3, 2, 6, 7], "total": 18, "status": "placed", "clubPoints": 20 }
+        ]
+    },
+    {
+        "className": "T3 — B Grade",
+        "classCode": "T3",
+        "colour": "yellow",
+        "riders": [
+            { "rank": 1, "firstName": "Richard", "lastName": "Zarczynski", "laps": [16, 8, 7, 7, 3], "total": 41, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "Lee", "lastName": "Follington", "laps": [11, 7, 10, 9, 11], "total": 48, "status": "placed", "clubPoints": 20 },
+            { "rank": 3, "firstName": "Chris", "lastName": "Wilson", "laps": [10, 13, 11, 7, 8], "total": 49, "status": "placed", "clubPoints": 18 },
+            { "rank": null, "firstName": "Matthew", "lastName": "Rose", "laps": [null, null, null, null, null], "total": null, "status": "dns" }
+        ]
+    },
+    {
+        "className": "T4 — C Grade",
+        "classCode": "T4",
+        "colour": "blue",
+        "riders": [
+            { "rank": 1, "firstName": "Gary", "lastName": "Boniface", "laps": [0, 1, 0, 0, 0], "total": 1, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "Clark", "lastName": "Chesher", "laps": [1, 0, 1, 0, 1], "total": 3, "status": "placed" },
+            { "rank": 3, "firstName": "Stephen", "lastName": "Hutchinson", "laps": [0, 0, 0, 6, 0], "total": 6, "status": "placed", "clubPoints": 20 },
+            { "rank": 4, "firstName": "Mark", "lastName": "Baker", "laps": [3, 1, 2, 0, 3], "total": 9, "status": "placed", "clubPoints": 18 },
+            { "rank": 5, "firstName": "Jake", "lastName": "McKinnon", "laps": [8, 3, 1, 0, 1], "total": 13, "status": "placed", "clubPoints": 16 },
+            { "rank": 6, "firstName": "Paul", "lastName": "McKinnon", "laps": [7, 2, 3, 2, 1], "total": 15, "status": "placed", "clubPoints": 15 },
+            { "rank": 7, "firstName": "Hiroshi", "lastName": "Ishizaki", "laps": [5, 7, 1, 5, 3], "total": 21, "status": "placed" },
+            { "rank": 8, "firstName": "David", "lastName": "Boyd", "laps": [4, 7, 8, 4, 5], "total": 28, "status": "placed", "clubPoints": 14 },
+            { "rank": 8, "firstName": "Paul", "lastName": "Shirdon", "laps": [7, 6, 5, 5, 5], "total": 28, "status": "placed", "clubPoints": 14 },
+            { "rank": 10, "firstName": "Frank", "lastName": "Hull", "laps": [5, 8, 9, 3, 4], "total": 29, "status": "placed", "clubPoints": 13 },
+            { "rank": 11, "firstName": "Scott", "lastName": "Eggins", "laps": [14, 3, 6, 6, 6], "total": 35, "status": "placed" },
+            { "rank": 12, "firstName": "Phillip", "lastName": "Hall", "laps": [14, 10, 10, 3, 4], "total": 41, "status": "placed", "clubPoints": 12 },
+            { "rank": 13, "firstName": "Paul", "lastName": "Cairns", "laps": [10, 16, 11, 8, 5], "total": 50, "status": "placed", "clubPoints": 11 },
+            { "rank": null, "firstName": "Jeremy", "lastName": "Farebrother", "laps": [null, null, null, null, null], "total": null, "status": "dns" }
+        ]
+    },
+    {
+        "className": "T5 — Clubperson",
+        "classCode": "T5",
+        "colour": "white",
+        "riders": [
+            { "rank": 1, "firstName": "Rodney", "lastName": "Harris", "laps": [6, 6, 1, 0, 0], "total": 13, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "William", "lastName": "Guthrie", "laps": [5, 2, 2, 5, 1], "total": 15, "status": "placed", "clubPoints": 20 },
+            { "rank": 3, "firstName": "Daniel", "lastName": "Bowen", "laps": [7, 6, 3, 2, 1], "total": 19, "status": "placed", "clubPoints": 18 },
+            { "rank": null, "firstName": "Nicole", "lastName": "Gunter", "laps": [null, null, null, null, null], "total": null, "status": "dns" }
+        ]
+    },
+    {
+        "className": "J7-13 — Juniors 7 to under 13 (White line)",
+        "classCode": "J7-13",
+        "colour": "white",
+        "riders": [
+            { "rank": 1, "firstName": "Jack", "lastName": "Bowen", "laps": [13, 8, 2, 3, 5], "total": 31, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "Camden", "lastName": "Baker", "laps": [11, 6, 14, 18, 15], "total": 64, "status": "placed", "note": "20 cleans", "clubPoints": 20 },
+            { "rank": 3, "firstName": "Charlie", "lastName": "Wilson", "laps": [17, 11, 14, 9, 13], "total": 64, "status": "placed", "note": "15 cleans", "clubPoints": 18 }
+        ]
+    },
+    {
+        "className": "J9-16 — Juniors 9 to under 16 (Blue line)",
+        "classCode": "J9-16",
+        "colour": "blue",
+        "riders": [
+            { "rank": 1, "firstName": "Darcy", "lastName": "Follington", "laps": [3, 3, 3, 5, 7], "total": 21, "status": "placed", "clubPoints": 25 },
+            { "rank": 2, "firstName": "Brooklyn", "lastName": "Baker", "laps": [13, 14, 23, 15, 10], "total": 75, "status": "placed", "clubPoints": 20 }
+        ]
+    }
+]

@@ -2,6 +2,7 @@
 
 use App\Models\Event;
 use App\Services\DemoEvent;
+use App\Services\EventTemplates;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
@@ -14,11 +15,23 @@ new class extends Component
     #[Validate('required|integer|in:5,10,15,20,30,60')]
     public int $minutes = 10;
 
+    public string $template = 'random';
+
     public function startEvent(DemoEvent $demo)
     {
         $this->validate();
 
-        $event = $demo->create($this->name, $this->minutes);
+        if ($this->template !== 'random' && ! EventTemplates::exists($this->template)) {
+            $this->addError('template', 'Unknown template.');
+
+            return null;
+        }
+
+        $event = $demo->create(
+            $this->name,
+            $this->minutes,
+            template: $this->template === 'random' ? null : $this->template,
+        );
 
         return $this->redirect(route('event.overview', $event), navigate: false);
     }
@@ -47,6 +60,16 @@ new class extends Component
             <span class="block text-xs text-zinc-500 mb-1">Event name (optional)</span>
             <input type="text" wire:model="name" placeholder="{{ \App\Services\DemoEvent::suggestName() }}"
                    class="w-full rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm placeholder-zinc-600 focus:border-amber-500 focus:outline-none">
+        </label>
+        <label class="text-sm">
+            <span class="block text-xs text-zinc-500 mb-1">Field</span>
+            <select wire:model="template"
+                    class="rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-2 text-sm focus:border-amber-500 focus:outline-none">
+                <option value="random">Random field — 60 riders</option>
+                @foreach (\App\Services\EventTemplates::options() as $key => $option)
+                    <option value="{{ $key }}" title="{{ $option['detail'] }}">{{ $option['name'] }}</option>
+                @endforeach
+            </select>
         </label>
         <label class="text-sm">
             <span class="block text-xs text-zinc-500 mb-1">Event runs over</span>

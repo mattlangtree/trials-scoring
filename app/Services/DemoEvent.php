@@ -54,22 +54,21 @@ class DemoEvent
             .' Trial';
     }
 
-    public function create(?string $name, int $minutes, int $riders = 60): Event
+    public function create(?string $name, int $minutes, int $riders = 60, ?string $template = null): Event
     {
         $this->pruneOldEvents();
 
         $minutes = max(2, min(120, $minutes));
         $start = now();
+        $blueprint = $template ? app(EventTemplates::class)->load($template) : null;
 
         $event = Event::create([
-            'name' => trim($name ?: '') ?: self::suggestName(),
+            'name' => trim($name ?: '') ?: ($blueprint['name'] ?? self::suggestName()),
             'event_date' => $start->toDateString(),
             'is_active' => true,
             'riding_ends_at' => $start->copy()->addMinutes($minutes),
             'cards_in_at' => $start->copy()->addMinutes($minutes + 15),
         ]);
-
-        $classes = collect(self::CLASSES)->map(fn (array $class) => $event->riderClasses()->create($class));
 
         $sections = collect(range(1, 15))->map(fn (int $number) => $event->sections()->create([
             'number' => $number,
@@ -85,6 +84,17 @@ class DemoEvent
             ]),
         ]);
 
+        $blueprint
+            ? $this->buildFromTemplate($event, $blueprint, $claims, $start, $minutes * 60)
+            : $this->buildRandomField($event, $riders, $claims, $start, $minutes * 60);
+
+        return $event;
+    }
+
+    private function buildRandomField(Event $event, int $riders, $claims, Carbon $start, int $duration): void
+    {
+        $classes = collect(self::CLASSES)->map(fn (array $class) => $event->riderClasses()->create($class));
+
         foreach (range(1, max(5, min(200, $riders))) as $i) {
             $event->riders()->create([
                 'rider_class_id' => $classes[($i - 1) % $classes->count()]->id,
@@ -94,9 +104,66 @@ class DemoEvent
             ]);
         }
 
-        $this->stageSchedule($event, $claims, $start, $minutes * 60);
+        $this->stageSchedule($event, $claims, $start, $duration);
+    }
 
-        return $event;
+    /**
+     * Recreate a real event from a template: its classes, its riders, and
+     * their actual scores staged across the timespan in riding order.
+     */
+    private function buildFromTemplate(Event $event, array $blueprint, $claims, Carbon $start, int $duration): void
+    {
+        $sectionIds = $event->sections()->pluck('id', 'number');
+        $number = 0;
+        $rows = [];
+
+        foreach ($blueprint['classes'] as $classData) {
+            $class = $event->riderClasses()->create([
+                'name' => $classData['name'],
+                'laps' => $classData['laps'],
+                'section_count' => $classData['section_count'],
+            ]);
+
+            foreach ($classData['riders'] as $riderData) {
+                $rider = $event->riders()->create([
+                    'rider_class_id' => $class->id,
+                    'rider_number' => ++$number,
+                    'name' => $riderData['name'],
+                ]);
+
+                $attempts = collect($riderData['scores'])->sum(fn ($lap) => count($lap));
+                if ($attempts === 0) {
+                    continue; // dns rider — entered but never sets off
+                }
+
+                $offset = mt_rand(0, (int) ($duration * 0.15));
+                $finish = mt_rand((int) ($duration * 0.80), $duration - 10);
+                $gap = ($finish - $offset) / $attempts;
+                $t = (float) $offset;
+
+                foreach ($riderData['scores'] as $lap => $sections) {
+                    foreach ($sections as $section => $points) {
+                        $t += $gap * (mt_rand(75, 125) / 100);
+                        $rows[] = [
+                            'event_id' => $event->id,
+                            'section_id' => $sectionIds[$section],
+                            'rider_id' => $rider->id,
+                            'section_claim_id' => $claims[$section]->id,
+                            'lap' => $lap,
+                            'points' => $points,
+                            'idempotency_key' => 'demo-'.$event->id.'-'.$rider->rider_number.'-'.$lap.'-'.$section.'-'.Str::random(6),
+                            'due_at' => $start->copy()->addSeconds((int) min($t, $duration - 5)),
+                            'created_at' => $start,
+                            'updated_at' => $start,
+                        ];
+                    }
+                }
+            }
+        }
+
+        foreach (array_chunk($rows, 500) as $chunk) {
+            StagedScore::insert($chunk);
+        }
     }
 
     /**

@@ -1,0 +1,433 @@
+[
+    {
+        "className": "Trial 1",
+        "classCode": "T1",
+        "colour": "green",
+        "riders": [
+            {
+                "rank": 1,
+                "firstName": "Connor", "lastName": "Hogan",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 5 }, { "total": 2 }, { "total": 5 }, { "total": 2 }], "dayTotal": 14 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 10 }, { "total": 1 }, { "total": 1 }, { "total": 5 }], "dayTotal": 17 }
+                ],
+                "total": 31,
+                "status": "placed"
+            }
+        ]
+    },
+    {
+        "className": "Trial 2",
+        "classCode": "T2",
+        "colour": "red",
+        "riders": [
+            {
+                "rank": 1, "firstName": "Kurt", "lastName": "Pickering",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 8 }, { "total": 10 }, { "total": 7 }, { "total": 8 }], "dayTotal": 33 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 7 }, { "total": 1 }, { "total": 3 }, { "total": 2 }], "dayTotal": 13 }
+                ],
+                "total": 46, "status": "placed"
+            },
+            {
+                "rank": 2, "firstName": "Jack", "lastName": "Salter",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 20 }, { "total": 17 }, { "total": 14 }, { "total": 15 }], "dayTotal": 66 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 3 }, { "total": 2 }, { "total": 6 }, { "total": 3 }], "dayTotal": 14 }
+                ],
+                "total": 80, "status": "placed"
+            },
+            {
+                "rank": 3, "firstName": "Daniel", "lastName": "Fenton",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 20 }, { "total": 20 }, { "total": 19 }, { "total": 19 }], "dayTotal": 78 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 12 }, { "total": 7 }, { "total": 3 }, { "total": 6 }], "dayTotal": 28 }
+                ],
+                "total": 106, "status": "placed"
+            }
+        ]
+    },
+    {
+        "className": "Trial 3",
+        "classCode": "T3",
+        "colour": "yellow",
+        "riders": [
+            {
+                "rank": 1, "firstName": "Toby", "lastName": "Coleman",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 0 }, { "total": 0 }, { "total": 0 }, { "total": 0 }], "dayTotal": 0 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 6 }, { "total": 2 }, { "total": 2 }, { "total": 1 }], "dayTotal": 11 }
+                ],
+                "total": 11, "status": "placed"
+            },
+            {
+                "rank": 2, "firstName": "Zak", "lastName": "Lunn",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 3 }, { "total": 4 }, { "total": 3 }, { "total": 1 }], "dayTotal": 11 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 6 }, { "total": 7 }, { "total": 3 }, { "total": 4 }], "dayTotal": 20 }
+                ],
+                "total": 31, "status": "placed"
+            },
+            {
+                "rank": 3, "firstName": "Michelle", "lastName": "Coleman",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 1 }, { "total": 6 }, { "total": 5 }, { "total": 5 }], "dayTotal": 17 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 7 }, { "total": 5 }, { "total": 4 }, { "total": 4 }], "dayTotal": 20 }
+                ],
+                "total": 37, "status": "placed"
+            },
+            {
+                "rank": 4, "firstName": "Jenna", "lastName": "Lupo",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 11 }, { "total": 11 }, { "total": 2 }, { "total": 7 }], "dayTotal": 31 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 9 }, { "total": 4 }, { "total": 7 }, { "total": 7 }], "dayTotal": 27 }
+                ],
+                "total": 58, "status": "placed"
+            },
+            {
+                "rank": 5, "firstName": "Mace", "lastName": "Evans",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 9 }, { "total": 20 }, { "total": 18 }, { "total": 7 }], "dayTotal": 54 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 11 }, { "total": 5 }, { "total": 8 }, { "total": 3 }], "dayTotal": 27 }
+                ],
+                "total": 81, "status": "placed"
+            },
+            {
+                "rank": 6, "firstName": "Chris", "lastName": "Gillespie",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 35 }, { "total": 24 }, { "total": 45 }, { "total": 45 }], "dayTotal": 149 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 22 }, { "total": 15 }, { "total": 45 }, { "total": 45 }], "dayTotal": 127 }
+                ],
+                "total": 276, "status": "placed"
+            }
+        ]
+    },
+    {
+        "className": "Trial 4+",
+        "classCode": "T4P",
+        "colour": "blue",
+        "riders": [
+            {
+                "rank": 1, "firstName": "David", "lastName": "Grice",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 20 }, { "total": 7 }, { "total": 0 }, { "total": 3 }], "dayTotal": 30 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 1 }, { "total": 2 }, { "total": 0 }, { "total": 0 }], "dayTotal": 3 }
+                ],
+                "total": 33, "status": "placed"
+            },
+            {
+                "rank": 2, "firstName": "Peter", "lastName": "Hosking",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 15 }, { "total": 10 }, { "total": 9 }, { "total": 9 }], "dayTotal": 43 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 8 }, { "total": 5 }, { "total": 6 }, { "total": 3 }], "dayTotal": 22 }
+                ],
+                "total": 65, "status": "placed"
+            },
+            {
+                "rank": 3, "firstName": "Ben", "lastName": "Evans",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 12 }, { "total": 13 }, { "total": 19 }, { "total": 15 }], "dayTotal": 59 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 13 }, { "total": 3 }, { "total": 2 }, { "total": 2 }], "dayTotal": 20 }
+                ],
+                "total": 79, "status": "placed"
+            },
+            {
+                "rank": 4, "firstName": "Steven", "lastName": "Homan",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 23 }, { "total": 20 }, { "total": 14 }, { "total": 8 }], "dayTotal": 65 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 12 }, { "total": 8 }, { "total": 0 }, { "total": 5 }], "dayTotal": 25 }
+                ],
+                "total": 90, "status": "placed"
+            },
+            {
+                "rank": 5, "firstName": "Mitch", "lastName": "Hurst",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 21 }, { "total": 13 }, { "total": 16 }, { "total": 17 }], "dayTotal": 67 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 14 }, { "total": 10 }, { "total": 8 }, { "total": 8 }], "dayTotal": 40 }
+                ],
+                "total": 107, "status": "placed"
+            },
+            {
+                "rank": 6, "firstName": "Andrew", "lastName": "Roycroft",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 20 }, { "total": 21 }, { "total": 18 }, { "total": 22 }], "dayTotal": 81 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 13 }, { "total": 9 }, { "total": 12 }, { "total": 10 }], "dayTotal": 44 }
+                ],
+                "total": 125, "status": "placed"
+            },
+            {
+                "rank": null, "firstName": "Chris", "lastName": "Dillon",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 9 }, { "total": 4 }, { "total": 10 }, { "total": 2 }], "dayTotal": 25 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 6 }, { "total": 2 }, { "total": 3 }, { "total": 0 }], "dayTotal": 11 }
+                ],
+                "total": 36, "status": "nc"
+            }
+        ]
+    },
+    {
+        "className": "Trial 4",
+        "classCode": "T4",
+        "colour": "blue",
+        "riders": [
+            {
+                "rank": 1, "firstName": "Bruce", "lastName": "Bickford",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 4 }, { "total": 2 }, { "total": 0 }, { "total": 0 }], "dayTotal": 6 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 7 }, { "total": 2 }, { "total": 1 }, { "total": 0 }], "dayTotal": 10 }
+                ],
+                "total": 16, "status": "placed"
+            },
+            {
+                "rank": 2, "firstName": "Zach", "lastName": "Borgas",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 10 }, { "total": 5 }, { "total": 4 }, { "total": 6 }], "dayTotal": 25 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 5 }, { "total": 1 }, { "total": 1 }, { "total": 3 }], "dayTotal": 10 }
+                ],
+                "total": 35, "status": "placed"
+            },
+            {
+                "rank": 3, "firstName": "Will", "lastName": "Delanty",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 11 }, { "total": 7 }, { "total": 4 }, { "total": 6 }], "dayTotal": 28 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 3 }, { "total": 2 }, { "total": 5 }, { "total": 2 }], "dayTotal": 12 }
+                ],
+                "total": 40, "status": "placed"
+            },
+            {
+                "rank": 4, "firstName": "Mick", "lastName": "Luscombe",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 14 }, { "total": 5 }, { "total": 8 }, { "total": 5 }], "dayTotal": 32 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 6 }, { "total": 4 }, { "total": 4 }, { "total": 4 }], "dayTotal": 18 }
+                ],
+                "total": 50, "status": "placed"
+            },
+            {
+                "rank": 5, "firstName": "Millie", "lastName": "Lockhart",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 14 }, { "total": 11 }, { "total": 6 }, { "total": 11 }], "dayTotal": 42 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 2 }, { "total": 3 }, { "total": 1 }, { "total": 3 }], "dayTotal": 9 }
+                ],
+                "total": 51, "status": "placed"
+            },
+            {
+                "rank": 6, "firstName": "Mike", "lastName": "Travica",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 11 }, { "total": 6 }, { "total": 4 }, { "total": 7 }], "dayTotal": 28 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 15 }, { "total": 4 }, { "total": 5 }, { "total": 1 }], "dayTotal": 25 }
+                ],
+                "total": 53, "status": "placed"
+            },
+            {
+                "rank": 7, "firstName": "David", "lastName": "Parker",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 8 }, { "total": 11 }, { "total": 11 }, { "total": 10 }], "dayTotal": 40 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 7 }, { "total": 4 }, { "total": 2 }, { "total": 7 }], "dayTotal": 20 }
+                ],
+                "total": 60, "status": "placed"
+            },
+            {
+                "rank": 8, "firstName": "Joel", "lastName": "Lee",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 10 }, { "total": 9 }, { "total": 3 }, { "total": 11 }], "dayTotal": 33 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 13 }, { "total": 7 }, { "total": 7 }, { "total": 3 }], "dayTotal": 30 }
+                ],
+                "total": 63, "status": "placed"
+            },
+            {
+                "rank": 9, "firstName": "Michael", "lastName": "Hull",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 9 }, { "total": 12 }, { "total": 11 }, { "total": 9 }], "dayTotal": 41 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 11 }, { "total": 6 }, { "total": 10 }, { "total": 6 }], "dayTotal": 33 }
+                ],
+                "total": 74, "status": "placed"
+            },
+            {
+                "rank": 10, "firstName": "Andrew", "lastName": "Pickering",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 16 }, { "total": 11 }, { "total": 14 }, { "total": 10 }], "dayTotal": 51 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 11 }, { "total": 5 }, { "total": 13 }, { "total": 4 }], "dayTotal": 33 }
+                ],
+                "total": 84, "status": "placed"
+            },
+            {
+                "rank": 11, "firstName": "Grant", "lastName": "Taylor",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 14 }, { "total": 8 }, { "total": 20 }, { "total": 8 }], "dayTotal": 50 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 22 }, { "total": 9 }, { "total": 17 }, { "total": 8 }], "dayTotal": 56 }
+                ],
+                "total": 106, "status": "placed"
+            },
+            {
+                "rank": 12, "firstName": "Doc", "lastName": "Perry",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 14 }, { "total": 19 }, { "total": 15 }, { "total": 17 }], "dayTotal": 65 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 17 }, { "total": 15 }, { "total": 9 }, { "total": 7 }], "dayTotal": 48 }
+                ],
+                "total": 113, "status": "placed"
+            },
+            {
+                "rank": 13, "firstName": "Scott", "lastName": "Pickering",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 22 }, { "total": 25 }, { "total": 24 }, { "total": 23 }], "dayTotal": 94 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 12 }, { "total": 4 }, { "total": 3 }, { "total": 20 }], "dayTotal": 39 }
+                ],
+                "total": 133, "status": "placed"
+            },
+            {
+                "rank": 14, "firstName": "Ned", "lastName": "Dillon",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 30 }, { "total": 22 }, { "total": 13 }, { "total": 18 }], "dayTotal": 83 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 14 }, { "total": 8 }, { "total": 12 }, { "total": 17 }], "dayTotal": 51 }
+                ],
+                "total": 134, "status": "placed"
+            },
+            {
+                "rank": 15, "firstName": "Cooper", "lastName": "Lockhart",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 27 }, { "total": 21 }, { "total": 20 }, { "total": 21 }], "dayTotal": 89 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 18 }, { "total": 11 }, { "total": 13 }, { "total": 6 }], "dayTotal": 48 }
+                ],
+                "total": 137, "status": "placed"
+            },
+            {
+                "rank": 16, "firstName": "Ken", "lastName": "Hosking",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 25 }, { "total": 20 }, { "total": 20 }, { "total": 18 }], "dayTotal": 83 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 14 }, { "total": 18 }, { "total": 22 }, { "total": 18 }], "dayTotal": 72 }
+                ],
+                "total": 155, "status": "placed"
+            },
+            {
+                "rank": 17, "firstName": "Alysha", "lastName": "Lunn",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 21 }, { "total": 24 }, { "total": 22 }, { "total": 13 }], "dayTotal": 80 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 21 }, { "total": 20 }, { "total": 16 }, { "total": 21 }], "dayTotal": 78 }
+                ],
+                "total": 158, "status": "placed"
+            },
+            {
+                "rank": 18, "firstName": "Thomas", "lastName": "Ward",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 29 }, { "total": 31 }, { "total": 24 }, { "total": 33 }], "dayTotal": 117 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 33 }, { "total": 29 }, { "total": 21 }, { "total": 28 }], "dayTotal": 111 }
+                ],
+                "total": 228, "status": "placed"
+            },
+            {
+                "rank": 19, "firstName": "Mary", "lastName": "Ward",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 35 }, { "total": 35 }, { "total": 31 }, { "total": 33 }], "dayTotal": 134 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 28 }, { "total": 35 }, { "total": 33 }, { "total": 35 }], "dayTotal": 131 }
+                ],
+                "total": 265, "status": "placed"
+            },
+            {
+                "rank": null, "firstName": "Kurt", "lastName": "Coleman",
+                "days": [],
+                "total": null, "status": "dns"
+            },
+            {
+                "rank": null, "firstName": "Samuel", "lastName": "Lockhart",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 4 }, { "total": 2 }, { "total": 4 }, { "total": 11 }], "dayTotal": 21 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 10 }, { "total": 2 }, { "total": 3 }, { "total": 1 }], "dayTotal": 16 }
+                ],
+                "total": 37, "status": "nc"
+            }
+        ]
+    },
+    {
+        "className": "Trial 5",
+        "classCode": "T5",
+        "colour": "white",
+        "riders": [
+            {
+                "rank": 1, "firstName": "Meredith", "lastName": "Dillon",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 13 }, { "total": 14 }, { "total": 17 }, { "total": 6 }], "dayTotal": 50 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 12 }, { "total": 11 }, { "total": 5 }, { "total": 1 }], "dayTotal": 29 }
+                ],
+                "total": 79, "status": "placed"
+            },
+            {
+                "rank": null, "firstName": "Trevor", "lastName": "Bennett",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 4 }, { "total": 5 }, { "total": 7 }, { "total": 5 }], "dayTotal": 21 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 1 }, { "total": 5 }, { "total": 3 }, { "total": 2 }], "dayTotal": 11 }
+                ],
+                "total": 32, "status": "nc"
+            }
+        ]
+    },
+    {
+        "className": "Junior",
+        "classCode": "JNR",
+        "colour": "white",
+        "riders": [
+            {
+                "rank": 1, "firstName": "Theodore", "lastName": "Gillespie",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 16 }, { "total": 14 }, { "total": 10 }], "dayTotal": 40 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 18 }, { "total": 23 }, { "total": 12 }], "dayTotal": 53 }
+                ],
+                "total": 93, "status": "placed"
+            },
+            {
+                "rank": 2, "firstName": "Pip", "lastName": "Gillespie",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 16 }, { "total": 11 }, { "total": 11 }], "dayTotal": 38 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 23 }, { "total": 30 }, { "total": 19 }], "dayTotal": 72 }
+                ],
+                "total": 110, "status": "placed"
+            }
+        ]
+    },
+    {
+        "className": "Twinshock",
+        "classCode": "TWS",
+        "colour": "stone",
+        "riders": [
+            {
+                "rank": 1, "firstName": "Will", "lastName": "Thornbury",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 0 }, { "total": 0 }, { "total": 0 }, { "total": 0 }], "dayTotal": 0 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 0 }, { "total": 0 }, { "total": 0 }, { "total": 0 }], "dayTotal": 0 }
+                ],
+                "total": 0, "status": "placed"
+            },
+            {
+                "rank": 2, "firstName": "Jacob", "lastName": "Whittle", "note": "70 cleans",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 5 }, { "total": 0 }, { "total": 0 }, { "total": 0 }], "dayTotal": 5 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 1 }, { "total": 0 }, { "total": 0 }, { "total": 0 }], "dayTotal": 1 }
+                ],
+                "total": 6, "status": "placed"
+            },
+            {
+                "rank": 3, "firstName": "Chris", "lastName": "Bayles", "note": "68 cleans",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 2 }, { "total": 0 }, { "total": 2 }, { "total": 1 }], "dayTotal": 5 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 0 }, { "total": 1 }, { "total": 0 }, { "total": 0 }], "dayTotal": 1 }
+                ],
+                "total": 6, "status": "placed"
+            },
+            {
+                "rank": 4, "firstName": "Josh", "lastName": "Pilcher", "note": "67 cleans",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 1 }, { "total": 2 }, { "total": 1 }, { "total": 0 }], "dayTotal": 4 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 1 }, { "total": 1 }, { "total": 0 }, { "total": 0 }], "dayTotal": 2 }
+                ],
+                "total": 6, "status": "placed"
+            },
+            {
+                "rank": 5, "firstName": "Ian", "lastName": "Pickering",
+                "days": [
+                    { "label": "Saturday", "shortLabel": "Sat", "laps": [{ "total": 40 }, { "total": 22 }, { "total": 10 }, { "total": 7 }], "dayTotal": 79 },
+                    { "label": "Sunday", "shortLabel": "Sun", "laps": [{ "total": 9 }, { "total": 12 }, { "total": 7 }, { "total": 4 }], "dayTotal": 32 }
+                ],
+                "total": 111, "status": "placed"
+            }
+        ]
+    }
+]

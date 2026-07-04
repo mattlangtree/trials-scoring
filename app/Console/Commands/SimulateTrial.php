@@ -12,7 +12,8 @@ class SimulateTrial extends Command
     protected $signature = 'trial:simulate
         {--name= : Event name (generated if omitted)}
         {--minutes=10 : Timespan the simulated event runs over}
-        {--riders=60 : Total riders in the event}';
+        {--riders=60 : Total riders in the event (random field only)}
+        {--template= : Replay a real event (see App\Services\EventTemplates)}';
 
     protected $description = 'Create a self-running demo event (same as the home-screen button) and drive its score releases from the terminal.';
 
@@ -22,6 +23,7 @@ class SimulateTrial extends Command
             $this->option('name'),
             (int) $this->option('minutes'),
             (int) $this->option('riders'),
+            $this->option('template'),
         );
 
         $total = $release->pending($event);
