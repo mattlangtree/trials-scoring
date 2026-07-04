@@ -145,7 +145,21 @@ new class extends Component
             }
         }
 
-        return ['laps' => $laps, 'finished' => $finished, 'dns' => $dns, 'nc' => $nc, 'dnf' => $dnf, 'maxLaps' => $maxLaps];
+        // Within a lap: least progressed first, rider number as the stable
+        // tie-break so pills don't jump around between refreshes.
+        foreach ($laps as &$riders) {
+            usort($riders, fn ($a, $b) => [$a['done_in_lap'], $a['number']] <=> [$b['done_in_lap'], $b['number']]);
+        }
+
+        return [
+            'laps' => $laps,
+            'finished' => $finished,
+            'dns' => $dns,
+            'nc' => $nc,
+            'dnf' => $dnf,
+            'maxLaps' => $maxLaps,
+            'maxSections' => (int) $this->event->riderClasses()->max('section_count'),
+        ];
     }
 };
 ?>
@@ -263,19 +277,29 @@ new class extends Component
                     @foreach (range(1, max(1, $this->lapBoard['maxLaps'])) as $lap)
                         <div class="px-4 py-4 flex gap-4 {{ $lap === 1 && ($this->lapBoard['dns'] !== [] || $this->lapBoard['nc'] !== [] || $this->lapBoard['dnf'] !== []) ? 'border-t-2! border-t-zinc-700!' : '' }}">
                             <span class="w-14 shrink-0 pt-0.5 text-xs uppercase tracking-wide text-zinc-500">Lap {{ $lap }}</span>
-                            <div class="flex flex-wrap gap-1.5">
-                                @forelse ($this->lapBoard['laps'][$lap] ?? [] as $rider)
-                                    @php $pct = (int) round($rider['done_in_lap'] / $rider['sections'] * 100); @endphp
-                                    <span wire:key="pill-{{ $rider['number'] }}"
-                                          title="{{ $rider['class'] }} — {{ $rider['done_in_lap'] }}/{{ $rider['sections'] }} sections this lap"
-                                          style="background: linear-gradient(90deg, {{ $rider['number'] === $flashRider ? 'rgb(245 158 11 / 0.25)' : 'rgb(82 82 91 / 0.45)' }} {{ $pct }}%, transparent {{ $pct }}%)"
-                                          class="inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs transition
-                                                 {{ $rider['number'] === $flashRider ? 'border-amber-400 text-amber-300' : 'border-zinc-700 text-zinc-300' }}">
-                                        <span class="text-zinc-500 tabular-nums">{{ $rider['number'] }}</span>{{ $rider['name'] }}
-                                    </span>
-                                @empty
-                                    <span class="text-xs text-zinc-600 pt-0.5">—</span>
-                                @endforelse
+                            @php $groups = collect($this->lapBoard['laps'][$lap] ?? [])->groupBy('done_in_lap'); @endphp
+                            <div class="flex-1 min-w-0 space-y-1">
+                                @foreach (range(0, max(1, $this->lapBoard['maxSections']) - 1) as $bucket)
+                                    <div wire:key="bucket-{{ $lap }}-{{ $bucket }}" class="flex items-center gap-2">
+                                        <span class="w-14 shrink-0 text-[10px] uppercase tracking-wide text-zinc-600 tabular-nums">{{ $bucket }} done</span>
+                                        <div class="flex-1 min-w-0 overflow-x-auto">
+                                            <div class="flex flex-nowrap items-center gap-1.5 py-0.5 min-h-6">
+                                                @forelse ($groups[$bucket] ?? [] as $rider)
+                                                    @php $pct = (int) round($rider['done_in_lap'] / $rider['sections'] * 100); @endphp
+                                                    <span wire:key="pill-{{ $rider['number'] }}"
+                                                          title="{{ $rider['class'] }} — {{ $rider['done_in_lap'] }}/{{ $rider['sections'] }} sections this lap"
+                                                          style="background: linear-gradient(90deg, {{ $rider['number'] === $flashRider ? 'rgb(245 158 11 / 0.25)' : 'rgb(82 82 91 / 0.45)' }} {{ $pct }}%, transparent {{ $pct }}%)"
+                                                          class="inline-flex shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs whitespace-nowrap transition
+                                                                 {{ $rider['number'] === $flashRider ? 'border-amber-400 text-amber-300' : 'border-zinc-700 text-zinc-300' }}">
+                                                        <span class="text-zinc-500 tabular-nums">{{ $rider['number'] }}</span>{{ $rider['name'] }}
+                                                    </span>
+                                                @empty
+                                                    <span class="text-xs text-zinc-800">—</span>
+                                                @endforelse
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
                             </div>
                         </div>
                     @endforeach
